@@ -1,15 +1,9 @@
 n = int(input())
+m = int(input())
 
-faktoren = []              
-z = n                       
+def ggt(a, b):
+    while b!=0:
+        a, b = b, a%b
+    return a
 
-while z > 1:
-  p = 2
-  i = 1
-  while p != 0:
-    i += 1
-    p = z % i
-  faktoren.append(i)
-  z = z // i
-
-print(faktoren)
+print(n // ggt(n, m), m // ggt(n, m))
