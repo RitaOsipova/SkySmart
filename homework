@@ -1,0 +1,71 @@
+# 1.
+# puiples = int(input())
+# fruit = int(input())
+
+# print(f'Every puiple becomes {fruit // puiples} fruits.')
+# print(f'In the busket are still {fruit % puiples} fruits')
+
+######################################################################
+# 2.
+# import math
+
+# a = int(input())
+# b = int(input())
+
+# sa = (a + b) / 2
+# sg = math.sqrt(a * b)
+
+# print(sa)
+# print(sg)
+
+######################################################################
+# 3.
+# import math
+
+# a = int(input())
+# b = int(input())
+
+# c = math.sqrt(a**2 + b**2)
+
+# print(c)
+
+######################################################################
+# Homework 1.
+# a = int(input())
+# b = int(input())
+
+# P = 2 * (a + b)
+# S = a * b
+
+# print(P)
+# print(S)
+
+######################################################################
+# Homework 2.
+
+# a = int(input())
+# b = int(input())
+
+# sa = (a + b) / 2
+
+
+# print(sa)
+
+######################################################################
+# Homework 3.
+
+# a = 60
+
+# a = a * 60
+# a = a * 24
+# a = a * 7
+
+# print(a)
+
+######################################################################
+# Homework 4.
+
+# leute = int(input())
+# fruchte = int(input())
+
+# print(f'In the busket are still {fruchte % leute}  fruits')
