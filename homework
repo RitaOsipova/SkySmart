@@ -4,8 +4,8 @@
 
 # print(f'Every puiple becomes {fruit // puiples} fruits.')
 # print(f'In the busket are still {fruit % puiples} fruits')
-
 ######################################################################
+ 
 # 2.
 # import math
 
@@ -69,3 +69,165 @@
 # fruchte = int(input())
 
 # print(f'In the busket are still {fruchte % leute}  fruits')
+
+######################################################################
+# 31.01.2022 nr.1
+# num = int(input())
+
+# des = num // 10
+# one = num % 10
+
+# print(f'des = {des}')
+# print(f'one = {one}')
+
+######################################################################
+#31.01.2022 nr.2a)
+
+# num = int(input())
+
+# hun = num // 100
+# mau = num % 100
+# des = mau // 10
+# one = mau % 10
+
+# print(f'hun = {hun}')
+# print(f'des = {des}')
+# print(f'one = {one}')
+
+# mal = hun * des * one
+# print(f' mal = {mal}')
+
+# plus = hun + des + one
+# print(f'plus = {plus}')
+
+# minhun = (one * 100) + (des * 10) + hun
+# print(minhun)
+######################################################################
+# Homework 1.
+# a = int(input())
+# b = int(input())
+
+# P = 2 * (a + b)
+# S = a * b
+
+# print(P)
+# print(S)
+######################################################################
+# Homework 2.
+# num = int(input())
+
+# hun = num // 100
+
+# print(hun)
+######################################################################
+# Homework 3.
+
+x = int(input())
+
+y = (x ** 2 - x) + 3
+
+print(y)
+######################################################################
+a = float(input())
+b = float(input())
+
+c = int(a) + int(b)
+
+print(c)
+######################################################################
+a = float(input())
+b = int(a)
+c = a - b
+d = c * 100
+e = d // 10
+
+print(int(e))
+######################################################################
+
+######################################################################
+
+ a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+
+if a < 0:
+  d += 1
+
+if b < 0:
+  d += 1
+
+if c < 0:
+  d += 1
+
+print(d)
+
+a = int(input())
+
+if a % 2 == 0:
+  print('1')
+
+else:
+  print('0')
+
+a = int(input())
+
+if a == 1:
+  print('I')
+  
+elif a == 2:
+  print('II')
+
+elif a == 3:
+  print('III')
+
+elif a == 4:
+  print('IV')
+elif a == 5:
+  print('V')
+
+elif a == 6:
+  print('VI')
+
+elif a == 7:
+  print('VII')
+
+elif a == 8:
+  print('VIII')
+  
+elif a == 9:
+  print('IX')
+
+elif a == 10:
+  print('X')
+
+else:
+  print('ERROR')
+
+s = input()
+a = len(s)
+######################################################################
+if a == 4:
+  if s.isdigit():
+    print('Correct pincode')
+  else:
+    print('Incorrect pincode')
+else:
+  print('Incorrect pincode')
+
+a = int(input())
+b = int(input())
+######################################################################
+if a % 2 == 0 or b % 2 == 0:
+  print((a * 10) + b)
+
+else:
+  print(a + b)
+
+mystring = input()
+######################################################################
+rev_str = reversed(mystring)
+if list(mystring) == list(rev_str):
+   print("1")
+else:
+   print("0")
